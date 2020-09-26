@@ -74,8 +74,7 @@ class PlaceTableViewCell: UITableViewCell {
         label.textColor =  .red
         label.layer.cornerRadius = 5
         label.clipsToBounds = true
-        label.numberOfLines = 2
-        label.sizeToFit()
+        label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
         label.translatesAutoresizingMaskIntoConstraints = false
         return label

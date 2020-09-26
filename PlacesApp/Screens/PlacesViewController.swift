@@ -43,6 +43,8 @@ class PlacesViewController: UIViewController {
         placesTableView.rightAnchor.constraint(equalTo:view.safeAreaLayoutGuide.rightAnchor),
         placesTableView.bottomAnchor.constraint(equalTo:view.safeAreaLayoutGuide.bottomAnchor)
             ])
+        
+        placesTableView.estimatedRowHeight = 44.0
 
         placesTableView.dataSource = self
         placesTableView.delegate = self
